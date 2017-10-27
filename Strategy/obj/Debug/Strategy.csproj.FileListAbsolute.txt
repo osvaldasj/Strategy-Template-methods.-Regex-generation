@@ -1,0 +1,7 @@
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy\bin\Debug\Strategy.exe.config
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy\bin\Debug\Strategy.exe
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy\bin\Debug\Strategy.pdb
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy\obj\Debug\Strategy.csprojResolveAssemblyReference.cache
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy\obj\Debug\Strategy.csproj.CoreCompileInputs.cache
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy\obj\Debug\Strategy.exe
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy\obj\Debug\Strategy.pdb

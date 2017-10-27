@@ -1,0 +1,7 @@
+C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\bin\Debug\PSP1.exe.config
+C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\bin\Debug\PSP1.exe
+C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\bin\Debug\PSP1.pdb
+C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\Template.csprojResolveAssemblyReference.cache
+C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\Template.csproj.CoreCompileInputs.cache
+C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\PSP1.exe
+C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\PSP1.pdb

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="-------------------------&lt;&gt;">
+    <Position X="4.744" Y="3.673" Height="0.314" Width="1.7" />
+  </Comment>
+  <Comment CommentText="&lt;&gt;-------------------------">
+    <Position X="8.47" Y="3.595" Height="0.314" Width="1.7" />
+  </Comment>
+  <Comment CommentText="&lt;&gt;-------------------------">
+    <Position X="4.698" Y="6.906" Height="0.314" Width="1.7" />
+  </Comment>
+  <Class Name="Template.Program">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Client">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAwBIBEAJCAAAAAAhAEAAAQAACAAAAADAAIAIEABAAk=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.AccountCreationValidation">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAQABAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AccountCreation\AccountCreationValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.EmailRegex">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAQABAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AccountCreation\EmailRegex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.PhoneNumberRegex">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAQABAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AccountCreation\PhoneNumberRegex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.StrongPasswordRegex">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAQABAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AccountCreation\StrongPasswordRegex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.AccountBioValidation">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
+      <FileName>AccountInformation\AccountBioValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Hobbies">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
+      <FileName>AccountInformation\Hobbies.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.LifeStory">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
+      <FileName>AccountInformation\LifeStory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.WorkPlace">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
+      <FileName>AccountInformation\WorkPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.BirthDateRegex">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAQABAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AccountCreation\BirthDateRegex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
