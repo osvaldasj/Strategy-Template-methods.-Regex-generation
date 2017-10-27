@@ -9,34 +9,10 @@
   <Comment CommentText="&lt;&gt;-------------------------">
     <Position X="7.388" Y="1.079" Height="0.314" Width="1.7" />
   </Comment>
-  <Class Name="Strategy.Hobbies" BaseTypeListCollapsed="true">
-    <Position X="12.75" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
-      <FileName>AccountInformation\Hobbies.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="Strategy.LifeStory" BaseTypeListCollapsed="true">
-    <Position X="16.25" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
-      <FileName>AccountInformation\LifeStory.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="Strategy.WorkPlace" BaseTypeListCollapsed="true">
-    <Position X="14.5" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
-      <FileName>AccountInformation\WorkPlace.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
   <Class Name="Strategy.Client">
     <Position X="9.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAwBIBEAJCAAAAAAhAEAAAQAACAAAAADAAIAIEABAAk=</HashCode>
+      <HashCode>AAUAAAAAAAAIAAAAAAEAAAAAICAAAAAAAAAAQEAAAAA=</HashCode>
       <FileName>Client.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -47,47 +23,71 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Strategy.DaysMonthsYears" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAhAAgAAAAAgAAAQACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\DaysMonthsYears.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Strategy.MonthsDaysYears" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAhAAgAAAAAgAAAQACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\MonthsDaysYears.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Strategy.YearsMonthsDays" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAhAAgAAAAAgAAAQACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\YearsMonthsDays.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Class Name="Strategy.NormalPassword" BaseTypeListCollapsed="true">
-    <Position X="0.5" Y="4.5" Width="1.5" />
+    <Position X="2.25" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
       <FileName>PasswordValidation\NormalPassword.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Strategy.StrongPassword" BaseTypeListCollapsed="true">
-    <Position X="5.75" Y="4.5" Width="1.5" />
+    <Position X="5.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
       <FileName>PasswordValidation\StrongPassword.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Strategy.VeryStrongPassword" BaseTypeListCollapsed="true">
-    <Position X="2.25" Y="4.5" Width="1.5" />
+    <Position X="0.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
       <FileName>PasswordValidation\VeryStrongPassword.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Strategy.WeakPassword" BaseTypeListCollapsed="true">
-    <Position X="4" Y="4.5" Width="1.5" />
+    <Position X="4" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
       <FileName>PasswordValidation\WeakPassword.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="Strategy.AccountBioValidation">
-    <Position X="12.75" Y="2.5" Width="3" />
+  <Interface Name="Strategy.DateStrategy">
+    <Position X="12.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAABBAAAAEAAAAA=</HashCode>
-      <FileName>AccountInformation\AccountBioValidation.cs</FileName>
+      <HashCode>AgAAAAAAAAAAAAAhAAAAAAAAAAAAAACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\DateStrategy.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Strategy.PasswordStrategy">
-    <Position X="5.75" Y="2.5" Width="1.5" />
+    <Position X="5.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AkAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAQAAAAAAAA=</HashCode>
       <FileName>PasswordValidation\PasswordStrategy.cs</FileName>

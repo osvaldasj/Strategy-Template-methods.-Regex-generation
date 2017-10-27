@@ -1,14 +1,18 @@
-﻿namespace Strategy
+﻿using System;
+
+namespace Strategy
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var client = new Client();
-            client.Info();
+            Console.WriteLine("Account registration");
+            Console.Write("Enter name: ");
 
-            client.AdditionalInfo();
-            client.Info();
+            do
+            {
+
+            } while (Console.ReadLine() != "exit");
         }
     }
 }

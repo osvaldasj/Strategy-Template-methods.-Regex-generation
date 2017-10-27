@@ -42,15 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateValidation\DaysMonthsYears.cs" />
+    <Compile Include="DateValidation\MonthsDaysYears.cs" />
+    <Compile Include="DateValidation\YearsMonthsDays.cs" />
     <Compile Include="PasswordValidation\PasswordStrategy.cs" />
     <Compile Include="PasswordValidation\VeryStrongPassword.cs" />
     <Compile Include="PasswordValidation\WeakPassword.cs" />
     <Compile Include="PasswordValidation\StrongPassword.cs" />
     <Compile Include="PasswordValidation\NormalPassword.cs" />
-    <Compile Include="AccountInformation\AccountBioValidation.cs" />
-    <Compile Include="AccountInformation\Hobbies.cs" />
-    <Compile Include="AccountInformation\LifeStory.cs" />
-    <Compile Include="AccountInformation\WorkPlace.cs" />
+    <Compile Include="DateValidation\DateStrategy.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
