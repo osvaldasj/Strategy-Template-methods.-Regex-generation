@@ -42,11 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountCreation\AccountCreationValidation.cs" />
-    <Compile Include="AccountCreation\BirthDateRegex.cs" />
-    <Compile Include="AccountCreation\EmailRegex.cs" />
-    <Compile Include="AccountCreation\PhoneNumberRegex.cs" />
-    <Compile Include="AccountCreation\StrongPasswordRegex.cs" />
+    <Compile Include="PasswordValidation\PasswordStrategy.cs" />
+    <Compile Include="PasswordValidation\VeryStrongPassword.cs" />
+    <Compile Include="PasswordValidation\WeakPassword.cs" />
+    <Compile Include="PasswordValidation\StrongPassword.cs" />
+    <Compile Include="PasswordValidation\NormalPassword.cs" />
     <Compile Include="AccountInformation\AccountBioValidation.cs" />
     <Compile Include="AccountInformation\Hobbies.cs" />
     <Compile Include="AccountInformation\LifeStory.cs" />

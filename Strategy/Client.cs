@@ -44,7 +44,7 @@ namespace Strategy
             return Console.ReadLine();
         }
 
-        public string ValidateCreationData(string text, AccountCreationValidation regex)
+        public string ValidateCreationData(string text, PasswordStrategy regex)
         {
             if (CheckValidation(text, regex.GenerateRegex()))
             {
@@ -72,7 +72,7 @@ namespace Strategy
         {
             Console.WriteLine("Enter email address:");
             string temp = Console.ReadLine();
-            AccountCreationValidation regex = new EmailRegex();
+            PasswordStrategy regex = new StrongPassword();
 
             if (ValidateCreationData(temp, regex) != "Error")
             {
@@ -89,7 +89,7 @@ namespace Strategy
         {
             Console.WriteLine("Enter phone number:");
             string temp = Console.ReadLine();
-            AccountCreationValidation regex = new PhoneNumberRegex();
+            PasswordStrategy regex = new NormalPassword();
 
             if (ValidateCreationData(temp, regex) != "Error")
             {
@@ -106,7 +106,7 @@ namespace Strategy
         {
             Console.WriteLine("Enter password:");
             string temp = Console.ReadLine();
-            AccountCreationValidation regex = new StrongPasswordRegex();
+            PasswordStrategy regex = new StrongPasswordRegex();
 
             if (ValidateCreationData(temp, regex) != "Error")
             {
@@ -123,7 +123,7 @@ namespace Strategy
         {
             Console.WriteLine("Enter birth date MM/DD/YYYY:");
             string temp = Console.ReadLine();
-            AccountCreationValidation regex = new BirthDateRegex();
+            PasswordStrategy regex = new WeakPassword();
 
             if (ValidateCreationData(temp, regex) != "Error")
             {
