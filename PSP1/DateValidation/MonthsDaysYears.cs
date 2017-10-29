@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace Strategy
+namespace Template
 {
     class MonthsDaysYears : DateStrategy
     {
@@ -9,7 +9,7 @@ namespace Strategy
         private string _separators = "/ ";
         private List<string> _positions = new List<string>() { "Months", "Days", "Years" };
 
-        public Regex GenerateRegex()
+        public override Regex GenerateRegex()
         {
             string regex = Positions(_positions).Replace(" ", Separators(_separators));
             regex = regex.Replace("D", "[0-9]");
@@ -19,7 +19,7 @@ namespace Strategy
             return new Regex(regex);
         }
 
-        public string Positions(List<string> positions)
+        public override string Positions(List<string> positions)
         {
             string temp = "";
             positions.Reverse();
@@ -41,12 +41,12 @@ namespace Strategy
             return temp.TrimEnd();
         }
 
-        public string Separators(string separators)
+        public override string Separators(string separators)
         {
             return "[" + separators + "]";
         }
 
-        public string YearsLength(int number)
+        public override string YearsLength(int number)
         {
             if (number == 4)
             {
@@ -58,7 +58,7 @@ namespace Strategy
             }
         }
 
-        public string Rules()
+        public override string Rules()
         {
             return "Format of date: " + Positions(_positions) + "\n" +
                    "Allowed separators: " + _separators + "\n";
