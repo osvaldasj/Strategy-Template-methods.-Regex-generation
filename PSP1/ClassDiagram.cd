@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Comment CommentText="-------------------------&lt;&gt;">
-    <Position X="4.744" Y="3.673" Height="0.314" Width="1.7" />
+    <Position X="4.85" Y="5.379" Height="0.314" Width="1.7" />
   </Comment>
   <Comment CommentText="&lt;&gt;-------------------------">
-    <Position X="8.47" Y="3.595" Height="0.314" Width="1.7" />
+    <Position X="8.492" Y="5.335" Height="0.314" Width="1.7" />
   </Comment>
-  <Comment CommentText="&lt;&gt;-------------------------">
-    <Position X="4.764" Y="5.835" Height="0.314" Width="1.7" />
+  <Comment CommentText="-------------------------&lt;&gt;">
+    <Position X="8.402" Y="3.421" Height="0.314" Width="1.7" />
   </Comment>
   <Class Name="Template.Program">
-    <Position X="3" Y="5.75" Width="1.5" />
+    <Position X="10.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
@@ -21,6 +21,69 @@
     <TypeIdentifier>
       <HashCode>AAUAAAAAAAAIAAAAAAEAAAAAICAAAAAAAAAAQEAAAAA=</HashCode>
       <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.DateStrategy">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAhAAAAAAAAAAAAAACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\DateStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.DaysMonthsYears">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAhAAgAAAAAgAAAQACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\DaysMonthsYears.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.MonthsDaysYears">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAhAAgAAAAAgAAAQACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\MonthsDaysYears.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.YearsMonthsDays">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAhAAgAAAAAgAAAQACABAAAAAAAAAA=</HashCode>
+      <FileName>DateValidation\YearsMonthsDays.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.NormalPassword">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
+      <FileName>PasswordValidation\NormalPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.PasswordStrategy">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAQAAAAAAAA=</HashCode>
+      <FileName>PasswordValidation\PasswordStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.StrongPassword">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
+      <FileName>PasswordValidation\StrongPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.VeryStrongPassword">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
+      <FileName>PasswordValidation\VeryStrongPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.WeakPassword">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AmAAAAAAAAAAAAAAAAAAAgAAAAAAAAABBAQAAAAAAAA=</HashCode>
+      <FileName>PasswordValidation\WeakPassword.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
