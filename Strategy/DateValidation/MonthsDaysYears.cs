@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace Strategy
@@ -12,24 +11,30 @@ namespace Strategy
 
         public Regex GenerateRegex()
         {
-            return new Regex(Positions(_positions).Replace(" ", "." + Separators(_separators)).Replace("D", "[0-9]").Replace("M", "[0-9]").Replace("Y", "[0-9]"));
+            string regex = Positions(_positions).Replace(" ", Separators(_separators));
+            regex = regex.Replace("D", "[0-9]");
+            regex = regex.Replace("M", "[0-9]");
+            regex = regex.Replace("Y", "[0-9]");
+
+            return new Regex(regex);
         }
 
         public string Positions(List<string> positions)
         {
             string temp = "";
+            positions.Reverse();
             foreach (var dateType in positions)
             {
                 switch (dateType)
                 {
                     case "Days":
-                        temp += "DD ";
+                        temp = temp + "DD ";
                         break;
                     case "Years":
-                        temp += YearsLength(_yearsLength) + " ";
+                        temp = temp + YearsLength(_yearsLength) + " ";
                         break;
                     default:
-                        temp += "MM";
+                        temp = temp + "MM ";
                         break;
                 }
             }

@@ -5,3 +5,10 @@ C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\Template.csprojResolveAssembly
 C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\Template.csproj.CoreCompileInputs.cache
 C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\PSP1.exe
 C:\Users\Osvaldas\Desktop\PSP\PSP1\PSP1\obj\Debug\PSP1.pdb
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy-Template-methods.-Regex-generation\PSP1\bin\Debug\Template.exe.config
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy-Template-methods.-Regex-generation\PSP1\bin\Debug\Template.exe
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy-Template-methods.-Regex-generation\PSP1\bin\Debug\Template.pdb
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy-Template-methods.-Regex-generation\PSP1\obj\Debug\Template.csprojResolveAssemblyReference.cache
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy-Template-methods.-Regex-generation\PSP1\obj\Debug\Template.csproj.CoreCompileInputs.cache
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy-Template-methods.-Regex-generation\PSP1\obj\Debug\Template.exe
+C:\Users\Osvaldas\Desktop\PSP\PSP1\Strategy-Template-methods.-Regex-generation\PSP1\obj\Debug\Template.pdb
